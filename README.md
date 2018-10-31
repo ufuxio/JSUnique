@@ -11,6 +11,6 @@ Javascript Unique Function
   </a>
 </p>
 
-<p>Javascript make multiple values.</p>
+<p>Javascript make multiple values single.</p>
 
 https://jsfiddle.net/ufuxio/kmwnqbL9/5/
