@@ -1,0 +1,2 @@
+# JSUnique
+Javascript Unique Function
