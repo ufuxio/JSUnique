@@ -1,0 +1,25 @@
+<script>
+ 'use strict';
+ 
+  var unique = function(){
+    
+    this.array = ['a','a','b','b','c','c','d','d'];
+    
+    unique.prototype.single = function(value,index,self){
+      return self.indexOf(value) === index;
+    }
+    
+    unique.prototype.filter = function(){
+      return this.array.filter(this.single);
+    }
+    
+  }
+  
+  var start = new unique;
+  var run = start.filter();
+ 
+  document.getElementById("response").innerHTML = run;
+  
+  console.log(run); //['a','b','c','d'];
+  
+</script>
